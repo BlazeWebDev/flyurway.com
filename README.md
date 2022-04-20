@@ -1,2 +1,3 @@
 # flyurway.com
- My first private project, creating a mock airport flight booking sight. Languages are HTML, CSS and if i can, minimal JS
+ My first private project, creating a mock airport flight booking sight. Languages are HTML, CSS and if i can, minimal JS. 
+ 7:31 PM: I'm building up the html,i'm giving each html element a class/classes for easy trackimg and styling. I'm kinda nervous when the time comes to do box styling...

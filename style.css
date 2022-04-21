@@ -1,12 +1,13 @@
 *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color:#777;
+    color:rgb(63, 62, 62);
 }
 
 html, body{
     margin: 0;
     padding:0;
+    background-color:#f0f8ff;
 }
 
 .nav-bar ul{
@@ -14,5 +15,278 @@ html, body{
 }
 
 .header-main{
+    background-image: url(../pictures/user2.jpeg);
+    background-color: #504e4e;
+    background-blend-mode: multiply;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:auto;
+    height: 85%;
+    width: 100%;
+}
+/* to solve specificity issues */
+.header-main h2, span, p, li, a, img{
+    color: white;
+}
 
+.div{
+    display: inline-block;
+}
+
+.nav-bar-header{
+    display: flex;
+    background-color: rgb(117, 179, 204);
+    width:100%;
+}
+
+.nav-bar-header img{
+    height:60px;
+}
+
+.nav-bar-part1{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header{
+    text-align: center;
+    font-family: cursive;
+}
+
+.main-header a{
+    font-family: cursive;
+    font-size: 1.4em;
+}
+
+.nav-list{
+    text-align: end;
+    align-items: center;
+    display: inline-flex;
+    
+    
+}
+
+.list-item{
+    list-style: none;
+    padding:20px;
+    transition: 0.15s;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.list-item:hover{
+    background-color: #f0f8ff;
+    color: rgb(101, 157, 179);
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.header-part2{
+    text-align: center;
+}
+
+.sub-header{
+    font-size:3em;
+}
+
+.fly{
+    color: #faebd7;
+    font-size: 1.2em;
+    font-style: oblique;
+}
+
+.you{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.p-tag{
+    text-align: center;
+    color:rgb(63, 62, 62);
+
+}
+.sub-header-text{
+    font-size:1.5em;
+    padding: 5% 20%;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.btn-header{
+    margin:.5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255,255,255, .1);
+    border-radius: 0;
+    font-size:1.5em;
+    font-weight:lighter;
+    padding-left:2em;
+    padding-right:2em;
+}
+
+.btn-header:hover{
+    background-color:rgba(255, 255, 255, .3);
+}
+
+hr{
+    height: 0%;
+    border: 10px solid #2D9CDB;
+}
+
+.section{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.about-us-text{
+    font-size:1.5em;
+    padding: 0% 10%;
+}
+.offer-header{
+    font-size: 2em;
+}
+.services-header{
+    font-size: 2em;
+}
+
+.cards{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.card1, .card2 , .card3{
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: #d5f0ff;
+    box-shadow: 10px 10px 10px  grey;
+}
+
+.card1-header , .card2-header, .card3-header{
+    padding: 20px 0;
+    background:url(../pictures/worldeyes.jpeg);
+    color:white;
+    
+}
+.flight-tut-header{
+    font-size: 2.3em;
+}
+
+.step1-header, .step2-header, .step3-header{
+    color: #000;
+}
+.step1-img, .step2-img, .step3-img{
+    height:100px;
+    color: #000;
+}
+.flights-now{
+    margin-bottom: 20px;
+}
+.ongoing-flight-header{
+    font-size: 2.3em;
+}
+
+.flightnum{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1em;
+    margin: 1em;
+    color: rgb(63, 62, 62);
+}
+.flightnum:last-child{
+    border-bottom: none;
+}
+
+.flight{
+    display: inline-block;
+    padding-right:.5em;
+    color: rgb(63, 62, 62);
+}
+
+.flight-time{
+    color:#555;
+    font-weight: bold;
+    width: 11%;
+}
+.flight-date{
+    width:24%;
+}
+.flight-destination{
+    width:42%;
+}
+
+.flight-btn{
+    max-width:19%;
+}
+.btn-primary{
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+    font-weight:bold;
+}
+
+.btn-primary:hover{
+    background-color: #2D9CDB;
+}
+
+.vacation{
+    text-align: center;
+    background: url(./pictures/room.jpeg);
+    background-color: #504e4e;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30%;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.hotel{
+    text-align: center;
+    background: url(./pictures/worldeyes.jpeg);
+    background-color: #504e4e;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30%;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.vacation-header, .hotel-header, .hotel-text, .vacation-text{
+    color: white;
+}
+
+.main-footer{
+    background-color: #56CCF2;
+    color:white;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    display:flex;
+    align-items: center;
+}
+
+.footer-header{
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px #808080;
+}
+
+.main-footer-container div{
+    flex-grow: 1;
+    text-align: end;
 }

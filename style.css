@@ -290,3 +290,57 @@ hr{
     flex-grow: 1;
     text-align: end;
 }
+
+.form{
+    width: 30%;
+    background-color: rgb(117, 179, 204);
+    margin-left:40px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #777;
+    float: left;
+}
+form, .form-header, .form-easy, .login, h3{
+    color: black;
+    text-align: center;
+}
+
+.inputarea{
+    margin : 10px;
+
+    height:40px;
+    width:60%;
+    text-align: center;
+
+}
+.name, .email, .dob, .password{
+    display: inline-flex;
+    width:80%;
+
+}
+.switchmode{
+    padding-bottom: 5px;
+}
+
+.writeup{
+    /* float: right; */
+    padding-left: 55%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.writeup-img{
+    height: 200px;
+    text-align: center;
+}
+
+.loginin-text a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+.loginin-text a :visited{
+    color:#b8860b;
+}

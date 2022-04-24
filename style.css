@@ -15,7 +15,7 @@ html, body{
 }
 
 .header-main{
-    background-image: url(../pictures/user2.jpeg);
+    background-image: url(./pictures/user2.jpeg);
     background-color: #504e4e;
     background-blend-mode: multiply;
     background-repeat:no-repeat;
@@ -175,7 +175,7 @@ hr{
 
 .card1-header , .card2-header, .card3-header{
     padding: 20px 0;
-    background:url(../pictures/worldeyes.jpeg);
+    background:url(./pictures/worldeyes.jpeg);
     color:white;
     
 }
